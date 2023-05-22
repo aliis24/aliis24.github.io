@@ -1,0 +1,454 @@
+@charset "utf-8";
+header, nav, main, footer {
+    width: auto;
+    padding: 50px;
+    margin:0px auto;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height:auto;
+    background-color: #E9EDC9;
+    color:black;}
+nav{
+    height: 10px;
+    background-color: #FAEDCD;
+}
+main{
+    background-color: #E9EDC9;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    height: 10px;
+    background-color: #CCD5AE;
+}
+h1{
+    text-align: center;
+    font-family:Woodland;
+    font-size: 150px
+}
+header,h2{
+    text-align: center;
+    font-family:Quicksand;
+    font-size: 30px
+}
+ul{
+				list-style-type: square;
+				padding:0px;
+			}
+			nav ul{
+				list-style-type: none;
+			}
+			nav ul li {
+    color: #060606;
+    list-style-type: none;
+    display: inline-block;
+    width: 165px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Quicksand;
+    margin-left: 20px;
+			}
+nav li{
+    float: left;
+}
+* {
+  box-sizing: border-box;
+}
+.main {
+    padding: 100px;
+    text-align: center;
+    color: black;
+    background-image:url( "../imagenes/Ilustración alisam_001.png");
+    background-size: 100% auto;
+}
+#p_1{
+    font-family:Quicksand;
+    color:white;
+    font-size: 65px;
+    text-align: center;
+}
+
+#p_2 {
+    margin: 10px;
+    text-align: justify;
+    padding-top: 20px;
+    font-family: Quicksand, "Quicksand Dash";
+    font-size: 20px
+}
+
+#p_3 {
+    font-family: Woodland, Quicksand, "Quicksand Dash";
+    font-size: 40px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+ul li a:hover  {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    background-color: #CCD5AE;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100px;
+}
+		ul li a {
+    text-decoration: none;
+    color: #111111;
+}
+footer{
+    width: auto;
+    background-color: #E9EDC9;
+    height: 25px;
+}
+#section_1 {
+     width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:100px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#section_2{
+    background-color: #CCD5AE;
+    width: auto;
+    border-radius: 25px;
+    height: 1050px;
+    
+}
+#p_4{
+    font-family: Quicksand, "Quicksand Dash";
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+#img_1 {
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#img_2 {
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#img_3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 150px;
+}
+#img_4 {
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#img_5 {
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#img_6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 150px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #E9EDC9;
+    width: 100px;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
+ul{
+				list-style-type: square;
+				padding:0px;
+			}
+footer ul{
+				list-style-type: none;
+			}
+footer ul li {
+    color: #060606;
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    font-size: 15px;
+    font-family: Quicksand;
+			}
+footer li{
+    float: right;
+}
+div.gallery {
+  margin: 20px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 250px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#section_3 {
+    height: 1100px;
+    width: auto;
+    border-radius: 10px;
+    background-color: #CCD5AE;
+}
+#section_4 {
+    background-color: #CCD5AE;
+    width: auto;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 450px;
+}
+h3{
+    font-family:  Quicksand, "Quicksand Dash";
+    font-size: 15px;
+    text-align: center;
+}
+#section_img4  {
+    border-color: #E9EDC9;
+    border-width: 50px;
+
+}
+
+.galeria {
+  height: calc( 300px + 3em);
+  width: 260px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;  
+}
+
+.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+.galeria_1 {
+  height: calc( 300px + 3em);
+  width: 260px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;  
+}
+
+.galeria_1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria_1 input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria_1 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria_1 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria_1 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+.galeria_2 {
+  height: calc( 300px + 3em);
+  width: 260px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;  
+}
+
+.galeria_2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria_2 input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria_2 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria_2 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria_2 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+.galeria_3 {
+  height: calc( 300px + 3em);
+  width: 260px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;  
+}
+
+.galeria_3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria_3 input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria_3 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria_3 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria_3 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+#section_5 {
+    background-color: #CCD5AE;
+    width: auto;
+    height: 250px;
+}
+#p_5 {
+    font-family: Woodland, Quicksand, "Quicksand Dash";
+    font-size: 30px;
+    text-align: center;
+}
+#img_al {
+    width: 200px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+main ul li a:hover  {
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+    background-color: #D1C688;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10px;
+}
+main ul li a {
+    text-decoration: none;
+    color: #111111;
+}
+	main ul{
+				list-style-type: none;
+			}
+main ul li {
+    color: #060606;
+    list-style-type: none;
+    width: 165px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-left: 20px;
+    padding: 10px;
+    display: table;
+    }
+    
+    
+    
